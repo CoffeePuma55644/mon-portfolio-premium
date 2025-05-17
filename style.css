@@ -1,0 +1,78 @@
+/* 
+  Ce fichier CSS est utilisé pour styliser la page d'accueil de l'application.
+  Il définit les styles pour le corps de la page, le conteneur principal et les éléments de navigation.
+*/
+
+/*
+Les couleurs de fond viennent du site de Radix Colors
+Elles vont du background au foreground
+
+#191111
+#201314
+#3B1219
+#500F1C
+#611623
+#72232D
+#8C333A
+#B54548
+#E5484D
+#EC5D5E
+#FF9592
+#FFD1D9
+
+*/
+
+body {
+  background-color: #191111;
+  color: #ffd1d9;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+#joker {
+  justify-content: start;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+#acceuil {
+  display: flex;
+  background-color: #201314;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 70px;
+}
+
+header {
+  height: 70px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #201314;
+  padding: 0 20px;
+  height: 70px;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-buttons button {
+  background: #3b1219;
+  color: #ffd1d9;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.nav-buttons button:hover {
+  background: #e5484d;
+}
