@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,33 +9,37 @@
   </head>
   <body>
     <header>
-      <div class="navbar">
-        <div id="acceuil">
+      <nav class="navbar">
+        <div class="navbar-left">
           <audio
             src="./music/PlayStation 5 - System Music - Main Menu.m4a"
             controls
             loop
             autoplay
             style="display: none"
+            aria-hidden="true"
           ></audio>
           <img
             id="joker"
             src="https://i.pinimg.com/736x/9f/1c/34/9f1c345f24bbb6e1c33bdb6ca2ede122.jpg"
             alt="Joker"
-            height="auto"
+            width="48"
+            height="48"
           />
           <h1>Mon portfolio</h1>
-          <div class="nav-buttons"></div>
+        </div>
+        <div class="navbar-right nav-buttons">
           <button>Mario</button>
           <button>Cloud</button>
           <button>Joker</button>
           <button>Moi</button>
         </div>
-      </div>
+      </nav>
     </header>
-
-    <hr />
-    <p>Bienvenue sur mon portfolio !</p>
-    <p>Je suis un développeur passionné par la technologie et le design.</p>
+    <main>
+      <hr />
+      <p>Bienvenue sur mon portfolio !</p>
+      <p>Je suis un développeur passionné par la technologie et le design.</p>
+    </main>
   </body>
 </html>

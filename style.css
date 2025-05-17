@@ -22,29 +22,19 @@ Elles vont du background au foreground
 
 */
 
+/* Palette Radix Colors */
 body {
   background-color: #191111;
   color: #ffd1d9;
   font-family: "Courier New", Courier, monospace;
   font-size: 1.2em;
   line-height: 1.5em;
-}
-
-#joker {
-  justify-content: start;
-  padding: 10px;
-  border-radius: 50%;
-}
-
-#acceuil {
-  display: flex;
-  background-color: #201314;
-  flex-direction: row;
-  justify-content: flex-start;
-  height: 70px;
+  margin: 0;
+  padding: 0;
 }
 
 header {
+  background-color: #201314;
   height: 70px;
 }
 
@@ -52,9 +42,33 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #201314;
-  padding: 0 20px;
+  padding: 0 32px;
   height: 70px;
+  background-color: #201314;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+#joker {
+  border-radius: 50%;
+  padding: 4px;
+  background: #3b1219;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin: 0;
+  font-weight: bold;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 15px;
 }
 
 .nav-buttons {
@@ -75,4 +89,8 @@ header {
 
 .nav-buttons button:hover {
   background: #e5484d;
+}
+
+main {
+  padding: 32px;
 }
