@@ -2,7 +2,7 @@
 
 Un portfolio **moderne**, **responsive** et **personnalisé**, conçu avec **React** et **Tailwind CSS**, pour mettre en valeur mes compétences, projets et informations de contact.
 
-![Screenshot](https://i.ytimg.com/vi/zdUSy8-oTHU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAOOhxTo6nXpj2Iw4zHhEUfKLyWHQ) <!-- Remplace par un vrai screenshot si tu veux -->
+![Screenshot](https://media.ouest-france.fr/v1/pictures/MjAyMzAzZGFhMjg0YmY3ZjQ3YmIzNzAzOGI0NTIzZDJkMGU5MGQ?width=1260&height=708&focuspoint=50%2C25&cropresize=1&client_id=bpeditorial&sign=d392585483d2eb51c2ab81172a5a9ee339b12baf8256925cea1a4acbfda7eaa2) <!-- Remplace par un vrai screenshot si tu veux -->
 
 ---
 
