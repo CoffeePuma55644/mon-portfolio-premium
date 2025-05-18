@@ -51,6 +51,20 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+  // Fonction pour appliquer le thème Moi
+  function setMoiTheme() {
+    document.body.style.backgroundColor = "#111111";
+    document.body.style.color = "#EEEEEE";
+    header.style.backgroundColor = "#191919";
+    navbar.style.backgroundColor = "#191919";
+    main.style.color = "#EEEEEE";
+    image.style.background = "#222222";
+    navButtons.forEach((btn) => {
+      btn.style.background = "#222222";
+      btn.style.color = "#EEEEEE";
+    });
+  }
+
   buttonCloud.addEventListener("click", function () {
     image.src =
       "https://oyster.ignimgs.com/mediawiki/apis.ign.com/final-fantasy-vii-remake/9/9b/Final-fantasy-vii-remake-image-02_22917472824_o.jpg";
@@ -76,5 +90,6 @@ document.addEventListener("DOMContentLoaded", function () {
     image.src =
       "https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-78f8-51f7-9bdd-21c3afd1c9b2/raw?se=2025-05-17T16%3A54%3A50Z&sp=r&sv=2024-08-04&sr=b&scid=00000000-0000-0000-0000-000000000000&skoid=b928fb90-500a-412f-a661-1ece57a7c318&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-17T15%3A42%3A49Z&ske=2025-05-18T15%3A42%3A49Z&sks=b&skv=2024-08-04&sig=kSefcOxHxTI23P7hTjAQoZm9eEr4doVAAK12bKl7C80%3D";
     image.alt = "Moi";
+    setMoiTheme();
   });
 });
